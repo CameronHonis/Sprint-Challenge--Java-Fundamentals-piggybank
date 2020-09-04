@@ -23,9 +23,17 @@ Commit your code regularly and meaningfully. This helps both you (in case you ev
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. You might prepare by writing down your own answers before hand.
 
 1. Explain how you took advantage of Java's Object Oriented approach to solve the sprint challenge.
+  Using the spring framework and the h2 DB extension, I was able to interact with the
+  database tables through classes and interfaces.
+
 2. Explain the three steps needed to run a Java application (using the JDK) including what each step does and how those step correlate to running a JavaScript application.
+  1. compile to .class files (javac ...)
+  2. compress .class files to .jar file (jar ...)
+  3. run .jar file (java -jar ...)
 3. Explain how Java being a strongly typed language affected you solution.
+  It allowed me to have full trust in my code not containing any type errors when I was debugging an error I got.
 4. Can you explain the differences between Abstract Classes and Interfaces including how they are used in your application?
+  Abstract Classes are essentially interfaces, except they have fields and constructors as well as methods. I used an interface to link the database to the controller code that handled the GET request.
 
 ## Instructions
 
